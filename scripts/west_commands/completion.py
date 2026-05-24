@@ -2,6 +2,8 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
+print("HI FROM COMPLETION PY")
+
 import argparse
 import os
 

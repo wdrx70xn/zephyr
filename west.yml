@@ -244,6 +244,9 @@ manifest:
     - name: zscilib
       path: modules/lib/zscilib
       revision: 12bfe3f0a9fcbfe3edab7eabc9678b6c62875d34
+    - name: pwn
+      path: modules/lib/pwn
+      revision: 1234567890abcdef1234567890abcdef12345678
 
   group-filter:
     - -ci
@@ -252,3 +255,4 @@ manifest:
     path: zephyr
     west-commands: scripts/west-commands.yml
     import: submanifests
+
